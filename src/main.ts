@@ -5,7 +5,7 @@ import { displayCurrentDate } from './date-display.js';
 document.addEventListener('DOMContentLoaded', () => {
   const greetingElement = document.getElementById('greeting');
   const dateElement = document.getElementById('date-display');
-  const userName = 'World';
+  const userName = 'London';
 
   if (greetingElement) {
     greetingElement.textContent = greet(userName);
